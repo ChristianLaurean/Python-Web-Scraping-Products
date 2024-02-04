@@ -16,13 +16,11 @@ This Python script performs web scraping to extract product information from var
     cd your_project
     ```
 
-2.Install dependencies:
+2.  Install dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
-
-3.Create a config.yml file with the necessary configuration. An example configuration is provided below:
 
 ## Usage
 
