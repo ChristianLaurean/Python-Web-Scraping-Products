@@ -27,7 +27,6 @@ This Python script performs web scraping to extract product information from var
 Run the main.py script to start the web scraping process:
 
     ```bash
-    Copy code
     python main.py
     ```
 
@@ -37,11 +36,11 @@ The script will extract data from the configured web pages and save the results 
 
 You can customize the web scraping behavior by adjusting the parameters in the config.yml file. The key configurations include:
 
-urls: List of URLs of the web pages you want to analyze.
-pages: Number of pages to extract for each URL.
-time: Waiting time between requests (in seconds).
-selectors: You can modify and add CSS selectors in the `config.yml` file to extract specific information from the HTML content.
+- urls: List of URLs of the web pages you want to analyze.
+- pages: Number of pages to extract for each URL.
+- time: Waiting time between requests (in seconds).
+- selectors: You can modify and add CSS selectors in the `config.yml` file to extract specific information from the HTML content.
 
 ## Automated Execution
 
-To schedule automated execution of the web scraping script at various times during the day, you can use the included cron.sh file.
+To schedule automated execution of the web scraping script at various times during the day, you can use the included `cron.sh` file.
