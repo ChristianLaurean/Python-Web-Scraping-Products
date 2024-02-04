@@ -1,0 +1,11 @@
+urls:
+  - "https://www.mercadolibre.com.mx/ofertas?container_id=MLM779363-1&page="
+pages: 7
+homepage: "ol.items_container a"
+home_product: "div.ui-pdp-container.ui-pdp-container--pdp"
+product_name: "h1"
+review: "div.ui-review-capability__rating > div:nth-child(1) > p"
+price: "span.andes-money-amount__fraction"
+discount_price: "span:nth-child(1) > span > span.andes-money-amount__fraction"
+csv_name: "products.csv"
+time: 5

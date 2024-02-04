@@ -1,8 +1,0 @@
-{
-  "homepage": "ol.items_container a",
-  "home_product": "div.ui-pdp-container__col.col-2.mr-32",
-  "product_name": "h1",
-  "review": "span.ui-pdp-review__rating",
-  "price": "span.andes-money-amount__fraction",
-  "discount_price": "span:nth-child(1) > span > span.andes-money-amount__fraction"
-}
