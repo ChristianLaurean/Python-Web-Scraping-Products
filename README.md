@@ -26,9 +26,11 @@ This Python script performs web scraping to extract product information from var
 
 Run the main.py script to start the web scraping process:
 
-    ```bash
+```bash
+
     python main.py
-    ```
+
+```
 
 The script will extract data from the configured web pages and save the results in a CSV file in the data folder.
 
